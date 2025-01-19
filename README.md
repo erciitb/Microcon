@@ -1,58 +1,68 @@
-
 # Setting Up the Playground
 
 ## Prerequisites
-For implementing Gemini AI response text-to-speech, ensure you have the following:
+To implement Gemini AI response text-to-speech, ensure you have the following:
 
 ### Arduino Setup
-- Latest Arduino version installed
-- ESP32 Board Manager URL:
-  ```
-  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-  ```
-- Add the above link to additional board manager URL in the prefernce section in the IDE as shown in the below pic/.
+1. **Latest Arduino Version Installed**
+2. **ESP32 Board Manager URL**  
+   Add the following link to the "Additional Board Manager URLs" section in the Preferences of the Arduino IDE:  
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
-  <img width="1710" alt="Image" src="https://github.com/user-attachments/assets/4723f110-8145-49d0-a762-84dd3d625ac3" />
+Refer to the image below for guidance:
 
-Once esp32 board manager url is added, you can install the latest version of ESP32 libraies from the board manger as shown as the below image. (You might have to change this version later for the upcoming AI chatbot activity, which is mentioned we in the readme file of teh respective  folders , ie speech to text and text to speech)
+![Preferences Section](https://github.com/user-attachments/assets/4723f110-8145-49d0-a762-84dd3d625ac3)
 
-<img width="1710" alt="image" src="https://github.com/user-attachments/assets/0ac6bbe7-c0a6-4e4e-90a0-d4f49cff8fcc" />
+3. Once the ESP32 Board Manager URL is added, install the latest version of the ESP32 libraries from the Board Manager, as shown below.  
+*(Note: You may need to change this version later for the AI chatbot activity, as specified in the README file of the respective folders, such as "Speech to Text" and "Text to Speech.")*
 
+![ESP32 Libraries](https://github.com/user-attachments/assets/0ac6bbe7-c0a6-4e4e-90a0-d4f49cff8fcc)
+
+---
 
 # Activity 
 
-## Introducing sensors and cloud service
+## Introducing Sensors and Cloud Service
 
- for the frist part we will be using connecting a DHT11 sensor to esp32 and monitor its data remotly ....:)
+For the first part, we will connect a DHT11 sensor to the ESP32 and monitor its data remotely. 😊
 
- For that we need a cloud service , here we are going to use ardiuno cloud , 
-- kindly to the this link and sign up for ardiuno cloud and install the ardiuno clint agent ( just follow on screen instructons)
-- setup a device
-- add a thing to this device
-- upload teh code to the device
-- finally monitor the data on dashboard
+To do this, follow these steps:  
+1. Use a cloud service, such as **Arduino Cloud**.  
+- Sign up for Arduino Cloud using [this link](https://www.arduino.cc/).  
+- Install the **Arduino Client Agent** by following the on-screen instructions.  
+2. Set up your device.  
+3. Add a "Thing" to this device.  
+4. Upload the provided code to your device.  
+5. Finally, monitor the data on the Arduino Cloud dashboard.
 
-# AI Chat bot 
-## Circuit setup
-- Follow the image file **circdiag.jpg** from the repository. The circuit on the left refers to the circuit diagram for the speaker, and the one on the right is for the microphone. Do not connect the two microcontrollers initially. Execute them seperately. Later, connect them together.
+---
 
-## text to speech + Gemini Ai ( if you got speacker follow this ) 
+# AI Chatbot 
 
--  Navigate to Team_A folder in this repo and follow the instructions their 
--  in this particular segment we will be working on text to speech , i.e when ever gemini is asked a question , the response has to seen in the speacker.
+## Circuit Setup
+Refer to the image file **`circdiag.jpg`** from the repository.  
+- The circuit diagram on the left is for the speaker.  
+- The circuit diagram on the right is for the microphone.  
+- **Do not connect the two microcontrollers initially**—execute them separately. Later, connect them together.
 
+---
 
-## Speech to text ( if you got microphone ) 
+### Text-to-Speech + Gemini AI (For Those with a Speaker)
+1. Navigate to the **Team_A folder** in this repository and follow the instructions provided.  
+2. In this segment, you will implement **text-to-speech** functionality. Whenever Gemini is asked a question, the response will be output through the speaker.
 
--  Navigate to Team_A folder in this repo and follow the instructions their
--  in this particular segment we will be working on speech to text , i.e yor esp should show you a text output when you speak onto you microphone
+---
+
+### Speech-to-Text (For Those with a Microphone)
+1. Navigate to the **Team_A folder** in this repository and follow the instructions provided.  
+2. In this segment, you will implement **speech-to-text** functionality. The ESP32 will display a text output when you speak into the microphone.
+
+---
 
 ## Final Integration 
 
-- Now you have two devices , text to speech and speech to text .... what next ??
-- integrate both of them via uart communication, i.e the text ouput in the speech to text is given to the text to speech vala esp and the response from gemin is given to speacker
-- navigate to chatbot folder in the repo for schmatics and etc ..
+1. Once you have two separate devices for **text-to-speech** and **speech-to-text**, it's time to integrate them via UART communication.  
+- The text output from the **speech-to-text** ESP will be sent to the **text-to-speech** ESP.  
+- The response from Gemini AI will then be played through the speaker.
 
-  
-
-
+2. Navigate to the **chatbot folder** in the repository for schematics and additional resources.
