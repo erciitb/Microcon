@@ -16,6 +16,8 @@ For implementing Gemini AI response text-to-speech, ensure you have the followin
 
 Once esp32 board manager url is added , you can install the latest version of Esp32 libraies from the board manger as shown as the below image .( you might have to change this vrsion later for the upcomin gai chatbot activity , which is mentioned we in the readme file of teh respective  folders , ie speech to text and text to speech)
 
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/0ac6bbe7-c0a6-4e4e-90a0-d4f49cff8fcc" />
+
 
 # Activity 
 
