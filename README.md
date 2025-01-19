@@ -1,5 +1,5 @@
 
-# Setting Up the PlayGround
+# Setting Up the Playground
 
 ## Prerequisites
 For implementing Gemini AI response text-to-speech, ensure you have the following:
@@ -14,7 +14,7 @@ For implementing Gemini AI response text-to-speech, ensure you have the followin
 
   <img width="1710" alt="Image" src="https://github.com/user-attachments/assets/4723f110-8145-49d0-a762-84dd3d625ac3" />
 
-Once esp32 board manager url is added , you can install the latest version of Esp32 libraies from the board manger as shown as the below image .( you might have to change this vrsion later for the upcomin gai chatbot activity , which is mentioned we in the readme file of teh respective  folders , ie speech to text and text to speech)
+Once esp32 board manager url is added, you can install the latest version of ESP32 libraies from the board manger as shown as the below image. (You might have to change this version later for the upcoming AI chatbot activity, which is mentioned we in the readme file of teh respective  folders , ie speech to text and text to speech)
 
 <img width="1710" alt="image" src="https://github.com/user-attachments/assets/0ac6bbe7-c0a6-4e4e-90a0-d4f49cff8fcc" />
 
@@ -33,6 +33,8 @@ Once esp32 board manager url is added , you can install the latest version of Es
 - finally monitor the data on dashboard
 
 # AI Chat bot 
+## Circuit setup
+- Follow the image file **circdiag.jpg** from the repository. The circuit on the left refers to the circuit diagram for the speaker, and the one on the right is for the microphone. Do not connect the two microcontrollers initially. Execute them seperately. Later, connect them together.
 
 ## text to speech + Gemini Ai ( if you got speacker follow this ) 
 
