@@ -54,7 +54,7 @@ Refer to the image file **`circdiag.jpg`** from the repository.
 ---
 
 ### Speech-to-Text (For Those with a Microphone)
-1. Navigate to the **Team_A folder** in this repository and follow the instructions provided.  
+1. Navigate to the **Team_B folder** in this repository and follow the instructions provided.  
 2. In this segment, you will implement **speech-to-text** functionality. The ESP32 will display a text output when you speak into the microphone.
 
 ---
