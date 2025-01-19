@@ -44,6 +44,8 @@ Refer to the image file **`circdiag.jpg`** from the repository.
 - The circuit diagram on the left is for the speaker.  
 - The circuit diagram on the right is for the microphone.  
 - **Do not connect the two microcontrollers initially**—execute them separately. Later, connect them together.
+- 
+![circdiag](https://github.com/user-attachments/assets/f186d416-e5cd-41dc-804f-dfdd80b3fc39)
 
 ---
 
