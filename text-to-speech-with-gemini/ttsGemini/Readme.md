@@ -16,3 +16,9 @@ For implementing Gemini AI response text-to-speech, ensure you have the followin
 
 <img width="1252" alt="Image" src="https://github.com/user-attachments/assets/4b36fcd2-ba73-459b-8374-cf98e7d75d32" />
 
+## Gemini API 
+
+- you would require a API key for putting gemini onto your esp32
+- for that navigate to (gemini api)[https://ai.google.dev/gemini-api/docs/api-key] and then sign in and get yourself a api key
+
+- <img width="1710" alt="Image" src="https://github.com/user-attachments/assets/3ec3a2f5-cca1-472f-80a4-eb6f003d2c86" />
