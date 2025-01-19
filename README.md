@@ -1,10 +1,11 @@
 # Setting Up the Playground
 
 ## Prerequisites
+
 To implement Gemini AI response text-to-speech, ensure you have the following:
 
 ### Arduino Setup
-1. **Latest Arduino Version Installed**
+1. **Latest Arduino Version Installed** https://www.arduino.cc/en/software
 2. **ESP32 Board Manager URL**  
    Add the following link to the "Additional Board Manager URLs" section in the Preferences of the Arduino IDE:  
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
