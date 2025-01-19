@@ -32,8 +32,21 @@ Once esp32 board manager url is added , you can install the latest version of Es
 
 ## text to speech + Gemini Ai ( if you got speacker follow this ) 
 
--  In this part ,you guys will follow the schmatic as shown below and complete the circuit 
--  once the circuit is done , upload this code
+-  Navigate to Team_A folder in this repo and follow the instructions their 
+-  in this particular segment we will be working on text to speech , i.e when ever gemini is asked a question , the response has to seen in the speacker.
+
+
+## Speech to text ( if you got microphone ) 
+
+-  Navigate to Team_A folder in this repo and follow the instructions their
+-  in this particular segment we will be working on speech to text , i.e yor esp should show you a text output when you speak onto you microphone
+
+## Final Integration 
+
+- Now you have two devices , text to speech and speech to text .... what next ??
+- integrate both of them via uart communication, i.e the text ouput in the speech to text is given to the text to speech vala esp and the response from gemin is given to speacker
+- navigate to chatbot folder in the repo for schmatics and etc ..
+
   
 
 
