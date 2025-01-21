@@ -23,9 +23,9 @@ Refer to the image below for guidance:
 
 # Activity 
 
-## Introducing Sensors and Cloud Service
+## Introducing Cloud Service
 
-For the first part, we will connect a DHT11 sensor to the ESP32 and monitor its data remotely. 😊
+For the first part, we will introduce to ardiuno iot cloud , by which you can control your esp remotely. 😊
 
 To do this, follow these steps:  
 1. Use a cloud service, such as **Arduino Cloud**.  
